@@ -1,6 +1,6 @@
 # 🧠 Personal Assistant AI - Jarvis
 
-![License](https://img.shields.io/github/license/fishylow/Project-Jarvis) ![Python](https://img.shields.io/badge/python-3.x-blue) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
+![Python](https://img.shields.io/badge/python-3.x-blue) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
 
 Your very own AI-powered personal assistant to help manage tasks, schedule reminders, and provide real-time information. Designed to simplify daily activities with voice commands, smart recommendations, and much more!
 
