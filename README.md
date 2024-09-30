@@ -65,25 +65,25 @@ Once the assistant is running, you can interact with it via the terminal or thro
 
 ---
 
-##📝 To Do list
+## 📝 To Do list
 
--switch to Llama 3.2
--add calendar support
--add git support
--add typing prompting
--~~add program opening support ~~ Done
--add shutter control support
--add light control support
--extend notes.json
--add file creation support
--give full access to file system (after llama switch)
--give screenshot permission (after llama switch)
--add colors to the terminal
--add discord api support
--add reminder support
--add adaptive learning (after llama switch)
--move to Linux server computer (after llama switch)
--make it usable through the internet for arduino access (after computer switch)
+- switch to Llama 3.2
+- add calendar support
+- add git support
+- add typing prompting
+- ~~add program opening support~~ Done
+- add shutter control support
+- add light control support
+- extend notes.json
+- ~~add file creation support~~ Done
+- give full access to file system (after llama switch)
+- give screenshot permission (after llama switch)
+- add colors to the terminal
+- add discord api support
+- add reminder support
+- add adaptive learning (after llama switch)
+- move to Linux server computer (after llama switch)
+- make it usable through the internet for arduino access (after computer switch)
 
 ## 🖥️ API Integrations
 
