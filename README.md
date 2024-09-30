@@ -89,12 +89,10 @@ Once the assistant is running, you can interact with it via the terminal or thro
 
 Your AI can integrate with various third-party services. Make sure to add your API keys in the `.env` file:
 
-```json
-{
+```bash
   SPOTIPY_CLIENT_ID = 'YOUR-SPOTIFY-CLIENT-ID-HERE'
   SPOTIPY_CLIENT_SECRET = 'YOUR-SPOTIFY-CLIENT-SECRET-HERE'
   OPENAI_API_KEY = "YOUR-OPENAI-API-KEY-HERE"
-}
 ```
 
 ---
