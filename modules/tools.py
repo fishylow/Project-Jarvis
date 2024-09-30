@@ -2,6 +2,19 @@ from modules.gpt import *
 from modules.spotify import *
 from modules.control import *
 from modules.tts import *
+from modules.files import *
+
+available_functions = {
+            "write_text": write_text,
+            "shutdown_pc": shutdown_pc,
+            "click_coord": click_coord,
+            "read_notes": read_notes,
+            "write_to_notes": write_to_notes,
+            "play_song": play_song,
+            "add_song_to_queue": add_song_to_queue,
+            "run_system_command": run_system_command,
+            "create_file": create_file,
+        }
 
 tools = [
     {

@@ -1,5 +1,5 @@
 def read_notes():
-    file_path = r"E:\notes.json"
+    file_path = r"E:\notes.json" #TODO: make usable on any system!!
     try:
         with open(file_path, 'r') as file:
             data = file.read()
@@ -10,7 +10,7 @@ def read_notes():
         return f"An error occurred: {e}"
 
 def write_to_notes(text):
-    file_path = r"E:\notes.json"
+    file_path = r"E:\notes.json" #TODO: make usable on any system!!
     try:
         with open(file_path, 'a') as file:
             file.write(text)

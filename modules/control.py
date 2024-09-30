@@ -1,5 +1,4 @@
 import pyautogui
-#import AppOpener
 import os
 
 
@@ -29,10 +28,3 @@ def create_file(path, content):
     path.replace('\\\\', '\\')
     os.system(f"""echo {content} > {path} """)
     return f"""echo {content} > {path} """
-
-#def open_program(name, close=False):
-#    if close:
-#        AppOpener.close(name, match_closest=True)
-#    else:
-#        AppOpener.open(name, match_closest=True)
-

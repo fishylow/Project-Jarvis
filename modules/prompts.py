@@ -1,8 +1,5 @@
 from modules.gpt import *
-from modules.spotify import *
-from modules.control import *
 from modules.tts import *
-import json
 
 def prompt_keyword_check(latest_transcription):
     # Detect if "Jarvis" is in the transcription

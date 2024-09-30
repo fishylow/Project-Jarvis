@@ -1,9 +1,5 @@
 from openai import OpenAI
 from modules.tools import *
-from modules.control import *
-from modules.files import *
-from modules.spotify import *
-import os
 import json
 import inspect
 from dotenv import load_dotenv
@@ -32,19 +28,6 @@ def run_conversation(content):
     
     if tool_calls:
         messages.append(response_message)
-
-        # Available functions
-        available_functions = {
-            "write_text": write_text,
-            "shutdown_pc": shutdown_pc,
-            "click_coord": click_coord,
-            "read_notes": read_notes,
-            "write_to_notes": write_to_notes,
-            "play_song": play_song,
-            "add_song_to_queue": add_song_to_queue,
-            "run_system_command": run_system_command,
-            "create_file": create_file,
-        }
 
         # Loop through each tool call and invoke the appropriate function
         for tool_call in tool_calls:
